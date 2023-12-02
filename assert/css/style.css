@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Heading';
+    src: url('../font/Gloss_And_Bloom.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'customfont';
+    src: url('../font/Proxima-Nova-Font.otf') format('opentype');
+}
+
+body {
+    font-family: 'customfont', 'Proxima Nova', sans-serif;
+}
+
+h1 {
+    font-family: 'Heading', 'Gloss_And_Bloom', sans-serif;
+    font-size: 60px;
+    line-height: 1.5;
+}
+
+
+/*common css*/
+.yellow {
+    color: #F9A825;
+}
+
+.btn.yellow {
+    background-color: #F9A825;
+}
+
+.btn:hover {
+    background-color: #F9A825 !important;
+}
+
+a {
+    cursor: pointer;
+}
+
+/*common css*/
+
+/*NAVBAR*/
+.mobile-logo{
+    display: none;
+}
+a.nav-link {
+    font-size: 15px;
+}
+
+.nav-link:hover,
+a.nav-link.text-white:hover {
+    cursor: pointer;
+    color: #F9A825 !important;
+}
+
+/*banner css*/
+.banner-img {
+    background-image: url("../images/Group 12140@2x.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+
+
+}
+
+/*about us*/
+.about-our-initiative {
+    background-image: url("../images/Mask-Group-17@2x.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150vh;
+    margin-top: -6%;
+}
+
+.about-relative {
+    position: relative;
+}
+
+.about-absolute {
+    position: absolute;
+    /*top: 90%;*/
+    z-index: 2;
+    background-color: #fff;
+    color: #000;
+}
+
+/*android-app*/
+.android-app {
+    background-image: url("../images/Amble-APP@2x.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 122vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*experties*/
+.experties {
+    background-image: url("../images/Expertise@2x.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 118vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-tabs {
+    font-size: 14px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    background-color: transparent;
+    border: 0;
+}
+
+/*social*/
+.social-section {
+    background-image: url("../images/Image-18.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*body section*/
+.donation-section {
+    background-image: url("../images/Gre-copy@2x.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+/*click to top*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/*footer css*/
+.footer {
+    background-image: url("../images/Group-12500@2x.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100%;
+
+}
+
+.social-border i {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 7px;
+    color: #fff;
+}
+
+.social-border i:hover {
+    color: #F9A825;
+}
+
+.footer-copyright {
+    background: #181818bf;
+}
